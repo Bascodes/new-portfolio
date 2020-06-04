@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/2f2409cce1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body id="bg-img">
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about" class="nav-link">
+              About me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work" class="nav-link">
+              My work
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact" class="nav-link">
+              Contact me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact">
+      <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
+
+      <form method="POST" action="/contact" class="form-style-9">
+        <ul>
+          <li>
+            <input
+              type="text"
+              name="name"
+              class="field-style field-split align-left"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              class="field-style field-split align-right"
+              placeholder="Email"
+            />
+          </li>
+
+          <li>
+            <input
+              type="text"
+              name="subject"
+              class="field-style field-full align-none"
+              placeholder="Subject"
+            />
+          </li>
+          <li>
+            <textarea
+              name="message"
+              class="field-style"
+              placeholder="Message"
+            ></textarea>
+          </li>
+          <li>
+            <input type="submit" value="Send Message" />
+          </li>
+        </ul>
+      </form>
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2020
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
