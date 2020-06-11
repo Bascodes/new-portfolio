@@ -10,19 +10,19 @@ app.use(bodyParser.json());
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/dist/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/about", (req, res) => {
-  res.sendFile(__dirname + "/dist/about.html");
+  res.sendFile(__dirname + "/about.html");
 });
 
 app.get("/work", (req, res) => {
-  res.sendFile(__dirname + "/dist/work.html");
+  res.sendFile(__dirname + "/work.html");
 });
 
 app.get("/contact", (req, res) => {
-  res.sendFile(__dirname + "/dist/contact.html");
+  res.sendFile(__dirname + "/contact.html");
 });
 
 app.post("/contact", (req, res) => {
